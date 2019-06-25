@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Group">
+	<test name="grouptest">
+	<groups>
+			<run>
+				<include name="Roy"></include>
+			</run>
+	</groups>
+		<classes>
+		<class name="com.testing.testng.CasesTest" /> 
+		<class name="com.testing.testng.TestHier"></class>
+		</classes>
+	</test>
+</suite>

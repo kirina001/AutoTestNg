@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Depent">
+	<test name="dependtest">
+		<parameter name="param1" value="Roy"></parameter>
+		<parameter name="param2" value=" is a teacher"></parameter>
+		<classes>
+		<class name="com.testing.testng.paramTest"></class>
+		</classes>
+	</test>
+</suite>

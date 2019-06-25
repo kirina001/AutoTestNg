@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite执行 -->
+<suite name="Suite1">	<!-- 测试集suite -->
+	<!-- @BeforeTest执行 -->
+	<test name="test1"> <!-- 测试套test -->
+		<classes>
+			<!-- @BeforeClass执行 -->
+			<class name="com.testing.testng.CasesTest" /> <!-- 测试类class -->
+			<!-- @AfterClass执行 -->
+			<class name="com.testing.testng.TestHier" /> <!-- 测试类class -->
+		</classes>
+	</test>
+	<!-- @AfterTest执行 -->
+	<test name="test2">
+		<classes>
+			<class name="com.testing.testng.TestHier" />
+		</classes>
+	</test>
+</suite>
+<!-- @AfterSuite执行 --> 

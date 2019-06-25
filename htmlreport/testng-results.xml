@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38" started-at="2018-11-21T15:08:44Z" finished-at="2018-11-21T15:08:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38" started-at="2018-11-21T15:08:44Z" finished-at="2018-11-21T15:08:44Z">
+      <class name="com.testing.testng.dataDriven">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testing.testng.dataDriven@7d70d1b1]" name="beforeSuite" is-config="true" duration-ms="931" started-at="2018-11-21T15:08:43Z" finished-at="2018-11-21T15:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.testng.dataDriven@7d70d1b1]" name="f" duration-ms="5" started-at="2018-11-21T15:08:44Z" data-provider="keywords" finished-at="2018-11-21T15:08:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[打开浏览器]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testing.testng.dataDriven@7d70d1b1]" name="afterSuite" is-config="true" duration-ms="36" started-at="2018-11-21T15:08:44Z" finished-at="2018-11-21T15:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testing.testng.dataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
